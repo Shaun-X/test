@@ -10,7 +10,7 @@ public class Calculator {
 	public static Integer sum(Integer x, Integer y){
 		if(x == null || y == null)
 			return null;
-		return x - y;
+		return x + y;
 	}
 	public static Integer substraction(Integer x, Integer y) {
 		if(x == null || y == null)
